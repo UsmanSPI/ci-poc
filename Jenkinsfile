@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        build 'aws'
+        build 'AWS-DEPLOY'
       }
     }
     stage('STG') {
