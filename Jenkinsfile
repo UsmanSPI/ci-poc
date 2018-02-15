@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        junit 'AP'
+        build 'aws'
       }
     }
     stage('STG') {
