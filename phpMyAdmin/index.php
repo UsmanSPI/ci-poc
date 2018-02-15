@@ -683,3 +683,5 @@ function PMA_printListItem($name, $listId = null, $url = null,
             )
         );
 }
+?>
+<h1>Hello</h1>
