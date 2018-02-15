@@ -15,7 +15,7 @@ pipeline {
     }
     stage('STG') {
       steps {
-        build 'ap'
+        awaitDeploymentCompletion 'xzd cd cdd'
       }
     }
   }
