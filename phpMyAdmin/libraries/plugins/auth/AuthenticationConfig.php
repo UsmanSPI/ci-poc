@@ -153,7 +153,7 @@ class AuthenticationConfig extends AuthenticationPlugin
                 'server'
             )
             , PMA_URL_getCommon(array()) , '" class="button disableAjax">'
-            , __('Retry to connect')
+            , __('Retry to connect !')
             , '</a>' , "\n";
         echo '</td>
         </tr>' , "\n";

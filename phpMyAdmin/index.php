@@ -18,11 +18,6 @@ require_once 'libraries/common.inc.php';
 require_once 'libraries/display_git_revision.lib.php';
 
 
-?>
-<h1>Hello World</h1>
-<?php
-
-
 /**
  * pass variables to child pages
  */
